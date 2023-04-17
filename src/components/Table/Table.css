@@ -1,0 +1,159 @@
+table {
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 5px #18181820;
+  border-collapse: separate;
+  border-left: 0;
+  border-radius: 4px;
+  border-spacing: 0px;
+  color: #808080;
+  font-weight: 600;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-collapse: separate;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherits;
+}
+
+th {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+th .header-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+th svg {
+  width: 20px;
+  fill: black;
+  padding-left: 10px;
+}
+
+th svg.asc {
+  transform: rotate(180deg);
+}
+
+th svg.desc {
+  transform: rotate(0deg);
+}
+
+th,
+td {
+  padding: 5px 10px;
+  text-align: left;
+  vertical-align: top;
+  border-left: 1px solid #ddd;
+}
+
+th span.gold {
+  height: 25px;
+  width: 25px;
+  background-color: #ffd700;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+th span.silver {
+  height: 25px;
+  width: 25px;
+  background-color: #c0c0c0;
+  border-radius: 50%;
+  display: inline-block;
+}
+th span.bronze {
+  height: 25px;
+  width: 25px;
+  background-color: #cd7f32;
+  border-radius: 50%;
+  display: inline-block;
+}
+td.countryCode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+td {
+  border-top: 1px solid #ddd;
+}
+
+thead:first-child tr:first-child th:first-child,
+tbody:first-child tr:first-child td:first-child {
+  border-radius: 4px 0 0 0;
+}
+
+thead:last-child tr:last-child th:first-child,
+tbody:last-child tr:last-child td:first-child {
+  border-radius: 0 0 0 4px;
+}
+
+.countryCode span {
+  padding-right: 10px;
+}
+
+span.flagImage {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url(./../../assets/flags.png);
+}
+
+span.flagImage.AUT {
+  background-position: 0 0;
+}
+
+span.flagImage.BLR {
+  background-position: 0 -17px;
+}
+span.flagImage.CAN {
+  background-position: 0 -34px;
+}
+
+span.flagImage.CHN {
+  background-position: 0 -51px;
+}
+
+span.flagImage.FRA {
+  background-position: 0 -68px;
+}
+span.flagImage.GER {
+  background-position: 0 -85px;
+}
+
+span.flagImage.ITA {
+  background-position: 0 -102px;
+}
+
+span.flagImage.NED {
+  background-position: 0 -119px;
+}
+
+span.flagImage.NOR {
+  background-position: 0 -136px;
+}
+span.flagImage.RUS {
+  background-position: 0 -153px;
+}
+
+span.flagImage.SUI {
+  background-position: 0 -170px;
+}
+
+span.flagImage.SWE {
+  background-position: 0 -187px;
+}
+
+span.flagImage.USA {
+  background-position: 0 -204px;
+}
